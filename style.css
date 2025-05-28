@@ -80,6 +80,10 @@ body {
   box-shadow: 0 0 3px #1b00cc inset;
 }
 
+.card .msg {
+  margin-top: 20px;
+}
+
 .card .weather {
   display: none;
 }
