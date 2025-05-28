@@ -65,7 +65,7 @@ body {
 
 .card .search i {
   background-color: rgb(241, 241, 241);
-  color: #999;
+  color: #444;
   width: 40px;
   height: 40px;
   font-size: 20px;
@@ -78,6 +78,10 @@ body {
 }
 .card .search i:hover {
   box-shadow: 0 0 3px #1b00cc inset;
+}
+
+.card .weather {
+  display: none;
 }
 
 .card .weather .weather-icon {
