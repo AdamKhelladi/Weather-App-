@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #18002e;
+  background-color: #130025;
   font-family: "Poppins", sans-serif;
 }
 
@@ -33,12 +33,13 @@ body {
 .card {
   width: 90%;
   max-width: 670px;
-  background: linear-gradient(135deg, #d039ee, #39e8ee, #170877);
+  background: linear-gradient(135deg, #b72dd3, #015457, #14066d);
   color: #fff;
-  margin: 60px auto;
+  margin: 54px auto;
   border-radius: 24px;
   padding: 20px 40px;
   text-align: center;
+  box-shadow: 0 0 10px #555;
 }
 
 .card .search {
@@ -59,24 +60,75 @@ body {
 }
 .card .search input:hover,
 .card .search input:focus {
-  box-shadow: 0 0 4px #170877 inset;
+  box-shadow: 0 0 3px #1b00cc inset;
 }
 
 .card .search i {
-    background-color: rgb(241, 241, 241);
-    color: #999;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: var(--main-transition);
-    cursor: pointer;
+  background-color: rgb(241, 241, 241);
+  color: #999;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--main-transition);
+  cursor: pointer;
 }
 .card .search i:hover {
-  box-shadow: 0 0 4px #170877 inset;
+  box-shadow: 0 0 3px #1b00cc inset;
+}
+
+.card .weather .weather-icon {
+  width: 180px;
+  margin: 30px 0 10px;
+}
+
+.card .weather .temp {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card .weather .city {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.card .weather .details {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card .weather .details .col {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card .weather .details .col img {
+  width: 60px;
+}
+
+.card .weather .details .col > div {
+  text-align: left;
+}
+
+.card .weather .details .col > div .humidity,
+.card .weather .details .col > div .wind {
+  font-size: 40px;
+}
+
+.card .weather .details .col > div .wind span {
+  font-size: 25px;
+}
+
+.card .weather .details .col > div > span {
+  font-weight: 200;
 }
 
 @media (max-width: 676px) {
@@ -85,6 +137,17 @@ body {
     margin: 60px auto;
     border-radius: 24px;
     padding: 20px 20px;
+  }
+
+  .card .weather .details .col img {
+    width: 40px;
+  }
+  .card .weather .details .col > div .humidity,
+  .card .weather .details .col > div .wind {
+    font-size: 30px;
+  }
+  .card .weather .details .col > div .wind span {
+    font-size: 20px;
   }
 }
 /* End Card */
