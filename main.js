@@ -6,10 +6,12 @@
 
 let searchInput = document.querySelector(".search input");
 let searchBtn = document.querySelector(".btn");
+
 let temp = document.querySelector(".temp");
 let city = document.querySelector(".city");
 let humidity = document.querySelector(".humidity");
 let wind = document.querySelector(".wind");
+
 let weatherIcon = document.querySelector(".weather-icon");
 
 window.onload = () => {
