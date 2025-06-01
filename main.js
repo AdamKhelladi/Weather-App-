@@ -39,6 +39,7 @@ async function checkWeather() {
     document.querySelector(".msg").style.display = "block";
     document.querySelector(".msg").textContent = "Invalid city name 😕";
     document.querySelector(".weather").style.display = "none";
+    
     return;
   }
 
