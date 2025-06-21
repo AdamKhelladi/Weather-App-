@@ -68,3 +68,5 @@ async function checkWeather() {
   document.querySelector(".weather").style.display = "block";
 }
 
+
+
