@@ -32,7 +32,6 @@ searchBtn.addEventListener("click", () => {
 
 async function checkWeather() {
   const response = await fetch(apiUrl);
-
   // console.log(response);
 
   if (response.status === 404) {
