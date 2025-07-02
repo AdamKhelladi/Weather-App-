@@ -1,7 +1,7 @@
 /* 
-  -----------------
-  -- Weather App --
-  -----------------
+  -------------------
+  --- Weather App ---
+  -------------------
 */
 
 let searchInput = document.querySelector(".search input");
