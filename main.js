@@ -68,7 +68,3 @@ async function checkWeather() {
 }
 
 
-
-
-
-
