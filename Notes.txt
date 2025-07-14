@@ -7,9 +7,9 @@
 - JavaScript + ES6 + DOM + Fetch API
 - jQuery
 
-===========
-== Notes ==
-===========
+=============
+=== Notes ===
+=============
 
 - No Framework 
 - Vanilla JavaScript
